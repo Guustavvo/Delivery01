@@ -1,0 +1,38 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+
+    background-color: #1D1D1D;
+}
+
+header {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    width: 30%;
+    display: inline-block;
+    background-color: #646464;
+}
+
+.imagemPrincipal {
+    display: inline-block;
+    float: right;
+    width: 70%;
+}
+
+.imagemPrincipal img{
+    width: 100%;
+    height: 627px;
+}
+
+h4 {
+    font-size: larger;
+}
+
+p {
+    font-weight: 800;
+    font-size: medium;
+}

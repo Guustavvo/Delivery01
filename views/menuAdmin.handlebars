@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/views/css/index.css">
+    <title>Delivery</title>
+</head>
+<body>{{#each admin}}
+         <header>
+            <h4>Delivery</h4>
+
+            <a href="/cad/categoria/{{loginUser}}/{{senhaUser}}">
+            <div class="menu">
+                <img src="/views/images/png-transparent-computer-icons-system-administrator-administrator-icon-silhouette-desktop-wallpaper-administrator-icon.png" alt="">
+                <p>Cad. Categorias</p>
+                </div>
+            </a>
+
+            <a href="/ver/categoria/{{loginUser}}/{{senhaUser}}">
+            <div class="menu">
+                <img src="/views/images/png-transparent-computer-icons-system-administrator-administrator-icon-silhouette-desktop-wallpaper-administrator-icon.png" alt="">
+                <p>Ver Categorias</p>
+                </div>
+            </a>
+
+                <a href="/loginAdmin">
+            <div class="menu">
+                <img src="/views/images/png-transparent-computer-icons-system-administrator-administrator-icon-silhouette-desktop-wallpaper-administrator-icon.png" alt="">
+                <p>Cad. produto</p>
+                </div>
+            </a>
+
+            <a href="/loginAdmin">
+            <div class="menu">
+                <img src="/views/images/png-transparent-computer-icons-system-administrator-administrator-icon-silhouette-desktop-wallpaper-administrator-icon.png" alt="">
+                <p>Ver produtos</p>
+                </div>
+            </a>
+
+           <a href="/infoDelivery/{{loginUser}}/{{senhaUser}}">
+            <div class="menu">
+                <img src="/views/images/png-transparent-computer-icons-system-administrator-administrator-icon-silhouette-desktop-wallpaper-administrator-icon.png" alt="">
+                <p>Informações</p>
+                </div>
+            </a>
+
+            <a href="/getMin/{{loginUser}}/{{senhaUser}}">
+            <div class="menu">
+                <img src="/views/images/png-transparent-computer-icons-system-administrator-administrator-icon-silhouette-desktop-wallpaper-administrator-icon.png" alt="">
+                <p>Admin</p>
+                </div>
+            </a>
+
+            <a href="/bkpDownload.rar">
+            <div class="menu">
+                <img src="/views/images/png-transparent-computer-icons-system-administrator-administrator-icon-silhouette-desktop-wallpaper-administrator-icon.png" alt="">
+                <p>Baixar Dados</p>
+                </div>
+            </a>
+   </header>
+   {{/each}}
+</body>
+</html>
